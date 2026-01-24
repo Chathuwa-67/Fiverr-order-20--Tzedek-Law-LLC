@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -222,10 +222,8 @@
 
       /* Hero Section */
       .hero-section {
-        background: linear-gradient(
-            rgba(10, 10, 10, 0.85),
-            rgba(10, 10, 10, 0.85)
-          ),
+        background:
+          linear-gradient(rgba(10, 10, 10, 0.85), rgba(10, 10, 10, 0.85)),
           url("https://images.unsplash.com/photo-1589391886645-d51941baf7fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80");
         background-size: cover;
         background-position: center;
@@ -462,7 +460,9 @@
       .fade-in {
         opacity: 0;
         transform: translateY(20px);
-        transition: opacity 0.6s ease, transform 0.6s ease;
+        transition:
+          opacity 0.6s ease,
+          transform 0.6s ease;
       }
 
       .fade-in.visible {
@@ -770,9 +770,17 @@
                     238164
                   </p>
                   <p class="small">
-                    We are located in TripleOne Somerset's office building which
-                    is conveniently a 3-minute and sheltered walk from Somerset
-                    MRT station.
+                    We are located in TripleOne Somerset’s office building,
+                    conveniently just a 3-minute sheltered walk from Somerset
+                    MRT Station.
+                  </p>
+                  <p class="small">
+                    🚇 By MRT: Take Exit A from Somerset MRT Station. The 111
+                    Somerset building will be on your right.
+                  </p>
+                  <p class="small">
+                    🚗 By Car: Parking is available at the basement car park of
+                    the 111 Somerset building.
                   </p>
                 </div>
               </div>
@@ -818,10 +826,11 @@
                     >
                   </p>
                   <p>
-                    Contact a specific member of
+                    For specific matters, you may also contact a member of our
+                    team directly via the details provided
                     <a href="./Our Team.html" class="text-light" target="_self"
-                      >Our team.</a
-                    >
+                      >Our team </a
+                    >page.
                   </p>
                 </div>
               </div>
@@ -847,8 +856,12 @@
           <div class="col-lg-6">
             <h3 class="mb-4">Enquiry Form</h3>
             <p class="mb-4">
-              If you require specific help, please fill in this form so that we
-              can serve you better. Alternatively, you may use our
+              If you require specific assistance, please complete the form below
+              so that we can better understand your needs and serve you more
+              effectively.
+            </p>
+            <p class="mb-4">
+              Alternatively, you may reach us directly via our
               <a
                 href="https://wa.me/6588095777"
                 class="text-light"
@@ -856,7 +869,7 @@
               >
                 WhatsApp hotline</a
               >
-              to reach us.
+              for a quicker response.
             </p>
             <form action="https://formspree.io/f/meolejal" method="POST">
               <div class="row">
@@ -924,49 +937,59 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="col-lg-4 mb-4 mb-lg-0 fade-up">
             <h3 class="footer-title">Tzedek Law LLC</h3>
             <p>
               Striving to achieve justice and righteousness in all our dealings.
               A boutique, international conveyancing law firm in Singapore.
             </p>
             <div class="social-links mt-3">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="https://facebook.com/tzedeklawllc" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/company/tzedek-law-llc"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="https://www.instagram.com/tzedeklawllc/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+          <div class="col-lg-2 col-md-4 mb-4 mb-md-0 fade-up">
             <h5 class="footer-title">Quick Links</h5>
             <div class="footer-links">
-              <a href="#home">Home</a>
-              <a href="#story">Our Story</a>
-              <a href="#services">Services</a>
-              <a href="#team">Our Team</a>
-              <a href="#contact">Contact</a>
-              <a href="#contact">Career/ Join Us</a>
+              <a href="#">Home</a>
+              <a href="./Our Story.html">Our Story</a>
+              <a href="./Our Services.html">Services</a>
+              <a href="./Our Team.html">Our Team</a>
+              <a href="./Testimonials.html">Testimonials</a>
+              <a href="./Contact Us.html">Contact</a>
+              <a href="#contact">Career / Join Us</a>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+          <div class="col-lg-3 col-md-4 mb-4 mb-md-0 fade-up">
             <h5 class="footer-title">Services</h5>
             <div class="footer-links">
-              <a href="#services">Buying a Property</a>
-              <a href="#services">Selling a Property</a>
-              <a href="#services">Refinancing</a>
-              <a href="#services">Drafting of Wills</a>
-              <a href="#services">Power of Attorney</a>
+              <a href="./Our Services.html">Buying a Property</a>
+              <a href="./Our Services.html">Selling a Property</a>
+              <a href="./Our Services.html">Refinancing</a>
+              <a href="./Our Services.html">Drafting of Wills</a>
+              <a href="./Our Services.html">Power of Attorney</a>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-3 col-md-4 fade-up">
             <h5 class="footer-title">Contact Info</h5>
             <div class="footer-links">
+              <a href="tel:+6562665420"
+                ><i class="fas fa-mobile me-2"></i>+65 8809 5777</a
+              >
               <a href="tel:+6562665420"
                 ><i class="fas fa-phone me-2"></i>+65 6266 5420</a
               >
               <a href="mailto:info@tzedeklaw.com.sg"
-                ><i class="fas fa-envelope me-2"></i
-                >jiaern.chuah@tzedeklaw.com.sg</a
+                ><i class="fas fa-envelope me-2"></i>info@tzedeklaw.com.sg</a
               >
               <a href="#"
                 ><i class="fas fa-map-marker-alt me-2"></i>111 Somerset Road
@@ -978,7 +1001,7 @@
         <hr class="mt-4 mb-4" style="border-color: rgba(255, 255, 255, 0.1)" />
         <div class="row">
           <div class="col-lg-12 text-center">
-            <p class="small mb-0">
+            <p class="small mb-0 copyright-text">
               &copy; 2025 Tzedek Law LLC. All Rights Reserved.
             </p>
           </div>
@@ -1098,7 +1121,7 @@
             }
           });
         },
-        { threshold: 0.5 }
+        { threshold: 0.5 },
       );
 
       observer.observe(counterSection);
@@ -1134,7 +1157,7 @@
             cursorSpan.classList.add("typing");
           typedTextSpan.textContent = textArray[textArrayIndex].substring(
             0,
-            charIndex - 1
+            charIndex - 1,
           );
           charIndex--;
           setTimeout(erase, erasingDelay);
